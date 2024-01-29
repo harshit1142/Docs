@@ -1,0 +1,21 @@
+@page {
+    margin: 1in;
+}
+
+@media print {
+    body {
+        background: none;
+    }
+
+    .ql-container {
+        box-shadow: none;
+        width: 6.5in;
+        height: 9in;
+        box-shadow: none;
+    }
+
+     .ql-toolbar {
+        display: none;
+    }
+}
+
